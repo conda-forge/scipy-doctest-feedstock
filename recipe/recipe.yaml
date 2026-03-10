@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: scipy-doctest
-  version: "2.1.0"
+  version: "2.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scipy_doctest-${{ version }}.tar.gz
-  sha256: d9c899eff99398aab0f769644530a77691126cfa81ad27a9c93b0995d25106cb
+  sha256: 7d215bc04823221b55400d4df249fdfe57dd779bea6cb024f20ec0015e7ce339
 
 build:
   number: 0
